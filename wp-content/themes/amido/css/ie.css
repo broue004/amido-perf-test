@@ -1,0 +1,19 @@
+body{ min-width:1000px;}
+.business-info .photo .hover,
+#content .article-list .article .photo .hover,
+.biography .photo .hover,
+.team-info .team-members .photo .hover{
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#B2FDCA03,endColorstr=#B2FDCA03)";
+}
+.business-info .photo:hover .hover,
+#content .article-list .article .photo:hover .hover,
+.biography .photo:hover .hover,
+.team-info .team-members .photo:hover .hover{ -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF)"; }
+.business-info .slide .title-area{
+	filter:alpha(opacity=10);
+}
+.business-info .slide.active .title-area{
+	filter:alpha(opacity=100);
+}
+.business-info .slide .post {visibility: hidden;}
+.business-info .slide.active .post { visibility: visible; }

@@ -1,0 +1,36 @@
+.home {
+  .intro {
+    .holder {
+    padding: 16px 9% 24px 10%;
+    }
+    h1 {
+      margin: 0 0 36px;
+      font: 86px / 110px "Geometric 415 W01-n8", Arial, Helvetica, sans-serif;
+      span {
+        border-bottom: 11px solid #000;
+      }
+    }
+    .btn-plus {
+      width: 50px;
+      height: 50px;
+      &:after {
+        background-position: 0 0;
+        width: 27px;
+        height: 27px;
+        left: 12px;
+        top: 12px;
+      }
+    }
+  }
+}
+
+
+@media only screen and (max-width: $break-mobile) {
+  .home {
+    .intro {
+      .holder {
+        padding: 19px 4% 24px;
+      }
+    }
+  }
+}
